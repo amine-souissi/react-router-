@@ -1,0 +1,12 @@
+import React from "react";
+
+import reactLogo from "../images/logo.svg";
+import frankyphoto from "../images/frankyphoto.jpg" ;
+export default function Navbar() {
+  return (
+    <nav>
+      <img src={frankyphoto} className="nav--icon" alt="react logo" />
+      <h3 className="nav--logo_text">RET3A</h3>
+    </nav>
+  );
+}
